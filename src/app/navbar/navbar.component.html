@@ -1,1 +1,10 @@
-<p>navbar works!</p>
+
+<div class="flex flex-row bg-yellow-400 p-4 gap-3 w-full" id="navbar">
+
+    <button *ngFor="let item of navItems; let i = index" (click)="setActive(i)"  class="navIcons">
+        <img [src]="activeTab === i ? item.activeImg : item.inactiveImg" alt="{{item.name}} Icon" class="w-full h-6">
+        <label [ngClass]="[activeTab === i ? 'text-white' : 'text-blue-600', 'text-sm']">
+            {{item.name}}
+        </label>
+    </button>
+</div>
