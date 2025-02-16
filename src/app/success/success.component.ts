@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-success',
@@ -6,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./success.component.scss'],
   standalone:true,
 })
-export class SuccessComponent implements OnInit {
+export class SuccessComponent {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
-  ngOnInit(): void {
+  navigateHome(){
+    this.router.navigate(['/']);
   }
 
 }
