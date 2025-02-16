@@ -8,12 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
+import { SuccessComponent } from './success/success.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    
     
 
   ],
@@ -23,7 +25,8 @@ import { MatIconModule } from '@angular/material/icon';
     HomeComponent,
     BrowserAnimationsModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    SuccessComponent,
 
   ],
   providers: [],

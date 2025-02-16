@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { SearchComponent } from '../search/search.component';
 
 @Component({
@@ -8,12 +8,9 @@ import { SearchComponent } from '../search/search.component';
   styleUrls: ['./home.component.scss'],
   imports:[SearchComponent],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
   user: string = "Tosh";
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
