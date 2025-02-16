@@ -10,12 +10,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { SuccessComponent } from './success/success.component';
 import { CartComponent } from './cart/cart.component';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    
     
     
     
@@ -30,6 +32,7 @@ import { CartComponent } from './cart/cart.component';
     MatIconModule,
     SuccessComponent,
     CartComponent,
+    ImageSliderComponent,
 
   ],
   providers: [],
