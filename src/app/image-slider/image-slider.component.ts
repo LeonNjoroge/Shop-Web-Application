@@ -11,9 +11,9 @@ import { CommonModule } from '@angular/common';
 export class ImageSliderComponent {
 
   images: string[] = [
-    'https://source.unsplash.com/800x400/?nature,1',
-    'https://source.unsplash.com/800x400/?nature,2',
-    'https://source.unsplash.com/800x400/?nature,3'
+    'assets/icons/Kyosk-digital.svg',
+    'assets/icons/categories.svg',
+    'assets/icons/home.svg',
   ];
   currentIndex: number = 0;
 }
