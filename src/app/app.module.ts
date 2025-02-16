@@ -9,12 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { SuccessComponent } from './success/success.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    
     
     
 
@@ -27,6 +29,7 @@ import { SuccessComponent } from './success/success.component';
     MatInputModule,
     MatIconModule,
     SuccessComponent,
+    CartComponent,
 
   ],
   providers: [],

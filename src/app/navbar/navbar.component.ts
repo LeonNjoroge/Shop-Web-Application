@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
   navItems= [
     { name: 'HOME', route: '/home', activeImg: 'assets/icons/home.svg', inactiveImg: 'assets/icons/home-bl.svg' },
     { name: 'CATEGORIES', route: '/home', activeImg: 'assets/icons/categories.svg', inactiveImg: 'assets/icons/categories-bl.svg' },
-    { name: 'MY CART', route: '/home', activeImg: 'assets/icons/cart.svg', inactiveImg: 'assets/icons/cart-bl.svg' },
+    { name: 'MY CART', route: '/cart', activeImg: 'assets/icons/cart.svg', inactiveImg: 'assets/icons/cart-bl.svg' },
     { name: 'PAYMENTS', route: '/home', activeImg: 'assets/icons/payments.svg', inactiveImg: 'assets/icons/payments-bl.svg' },
     { name: 'MORE', route: '/home', activeImg: 'assets/icons/more.svg', inactiveImg: 'assets/icons/more-bl.svg' }
   ];
