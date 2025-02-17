@@ -10,8 +10,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { SuccessComponent } from './success/success.component';
 import { CartComponent } from './cart/cart.component';
-import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { GraphQLModule } from './graphql/graphql.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,8 +33,8 @@ import { GraphQLModule } from './graphql/graphql.module';
     MatIconModule,
     SuccessComponent,
     CartComponent,
-    ImageSliderComponent,
     GraphQLModule,
+    HttpClientModule
 
   ],
   providers: [],
