@@ -18,7 +18,7 @@ export class GraphqlService {
   getProducts(): Observable<any> {
     return this.http.post<any>('https://api.escuelajs.co/graphql', {
       query: `{
-        products {
+        products{
           id
           title
           price
