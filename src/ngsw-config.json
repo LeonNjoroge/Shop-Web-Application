@@ -1,0 +1,40 @@
+{
+    "index": "/index.html",
+    "assetGroups": [
+      {
+        "name": "app",
+        "installMode": "prefetch",
+        "updateMode": "prefetch",
+        "urls": [
+          "/",
+          "/index.html",
+          "/styles.css",
+          "/main.js",
+          "/favicon.ico",
+          "/assets/icons/icon-72x72.png",
+          "/assets/icons/icon-96x96.png"
+        ]
+      },
+      {
+        "name": "assets",
+        "installMode": "lazy",
+        "updateMode": "lazy",
+        "urls": [
+          "/assets/**"
+        ]
+      }
+    ],
+    "dataGroups": [
+      {
+        "name": "api-data",
+        "urls": [
+          "https://api.escuelajs.co/graphql"
+        ],
+        "cacheConfig": {
+          "strategy": "freshness",
+          "maxAge": "1h",
+          "maxSize": 100
+        }
+      }
+    ]
+  }
