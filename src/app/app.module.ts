@@ -12,12 +12,18 @@ import { SuccessComponent } from './success/success.component';
 import { CartComponent } from './cart/cart.component';
 import { GraphQLModule } from './graphql/graphql.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductCardComponent } from './product-card/product-card.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+   
+    
+
     
     
     
@@ -34,7 +40,8 @@ import { HttpClientModule } from '@angular/common/http';
     SuccessComponent,
     CartComponent,
     GraphQLModule,
-    HttpClientModule
+    HttpClientModule,
+
 
   ],
   providers: [],
