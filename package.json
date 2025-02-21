@@ -25,7 +25,6 @@
     "apollo-angular": "^4.2.1",
     "graphql": "^16.10.0",
     "jquery": "^3.7.1",
-    "ngx-slick-carousel": "^19.0.0",
     "rxjs": "~7.5.0",
     "slick-carousel": "^1.8.1",
     "slider": "^1.0.4",
