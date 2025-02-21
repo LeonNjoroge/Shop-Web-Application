@@ -25,6 +25,7 @@ export class GraphqlService {
           images
         }
       }`
+      
     })
     .pipe(
       map(result => this.imageSanitizer.sanitizeProductImages(result.data.products))  // Sanitize and process images
